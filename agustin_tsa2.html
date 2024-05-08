@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "author" content = "Ren Ren A. Agustin">
+        <meta name = "description" content = "POKEMON DEX is a Technical Assessment
+        under IT0043L">
+        <meta name = "keywords" content = "POKEMON, pokemon, Web dev">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>POKEMON DEX</title>
+    </head>
+    <body>
+        <form>
+            <center>
+            <label for = "index"> National Dex: </label>
+            <input type = "number" name = "index" id = "index" min = "1" max ="100">
+            <br>
+            <br>
+
+            <input type = "radio" name = "generation" id = "generation1" value = "Generation 1">
+            <label for = "generation1"> Generation 1 </label>
+            <input type = "radio" name = "generation" id = "generation2" value = "Generation 2">
+            <label for = "generation2"> Generation 2 </label>
+            <input type = "radio" name = "generation" id = "generation3" value = "Generation 3">
+            <label for = "generation3"> Generation 3 </label>
+            <input type = "radio" name = "generation" id = "generation4" value = "Generation 4">
+            <label for = "generation4"> Generation 4 </label>
+            <input type = "radio" name = "generation" id = "generation5" value = "Generation 5">
+            <label for = "generation5"> Generation 5 </label>
+            <br>
+            <br>
+
+            <label for = "pokemon name">Pokemon Name:</label>
+            <input type = "text" name = "pokemon name" id = "pokemon name">
+            <br>
+            <br>
+
+            <label for = "image"> Image:</label>
+            <input  type = "file" name = "image" id = "image">
+            <br>
+            <br>
+
+            <label for = "type1">Type 1</label>
+            <input list = "types1" name = "type1" id = "type1">
+            <datalist id = "types1">
+                <option value = "Normal"> </option>
+                <option value = "Fire"> </option>
+                <option value = "Water"> </option>
+                <option value = "Electric"> </option>
+                <option value = "Grass"> </option>
+                <option value = "Ice"> </option>
+                <option value = "Fighting"> </option>
+                <option value = "Poison"> </option>
+                <option value = "Ground"> </option>
+                <option value = "Flying"> </option>
+                <option value = "Psychic"> </option>
+                <option value = "Bug"> </option>
+                <option value = "Rock"> </option>
+                <option value = "Ghost"> </option>
+                <option value = "Dragon"> </option>
+                <option value = "Dark"> </option>
+                <option value = "Steel"> </option>
+                <option value = "Fairy"> </option>
+            </datalist>
+            <label for= "type2">Type 2</label>
+            <input list = "types2" name = "type2" id = "type2">
+            <datalist id = "types2">
+                <option value = "Normal"> </option>
+                <option value = "Fire"> </option>
+                <option value = "Water"> </option>
+                <option value = "Electric"> </option>
+                <option value = "Grass"> </option>
+                <option value = "Ice"> </option>
+                <option value = "Fighting"> </option>
+                <option value = "Poison"> </option>
+                <option value = "Ground"> </option>
+                <option value = "Flying"> </option>
+                <option value = "Psychic"> </option>
+                <option value = "Bug"> </option>
+                <option value = "Rock"> </option>
+                <option value = "Ghost"> </option>
+                <option value = "Dragon"> </option>
+                <option value = "Dark"> </option>
+                <option value = "Steel"> </option>
+                <option value = "Fairy"> </option>
+            </datalist>
+            <br>
+            <br>
+
+            <label for=" evolvesFrom"> Evolves from: </label>
+            <input type = "text" name = "evolvesFrom" id = "evolvesFrom">
+            <label for = "evolvesTo"> Evolves to: </label>
+            <input type = "text" name = "evolvesTo" id = "evolvesTo">
+            <br>
+            <br>
+
+            <label for = "nickname"> Nickname: </label>
+            <input type = "text" name = "nickname" id = "nickname">
+            <br>
+            <br>
+
+            <label for ="birthday">Birthday: </label>
+            <input type = "date" name = "birthday" id = "birthday">
+            <br>
+            <br>
+            <input type = "submit" name = "submit" id = "submit">
+            <br>
+            <br>
+        
+        </form>
+    </center>
+        <table border="2px" align="center">
+            <tr>
+                <th>National Dex</th>
+                <th>Generation</th>
+                <th>Pokemon Name</th>
+                <th>Image</th>
+                <th>Type 1</th>
+                <th>Type 2</th>
+                <th>Evolves From</th>
+                <th>Evolves To</th>
+                <th>Nickname</th>
+                <th>Birthday</th>
+            </tr>
+            <tr>
+                
+                <td align="center">0099</td>
+                <td align="center">Generation 5 </td>
+                <td align="center">Renosaur</td>
+                <td align="center"><img src="Agustinprofile.png" alt="Renosaur"></td>
+                <td align="center" bgcolor="brown" style="color:white">Ground</td>
+                <td align="center" bgcolor="orange" style="color:white">Psychic</td>
+                <td align="center">Renosaur</td>
+                <td align="center">Tyrenosaurus</td>
+                <td align="center">T-Renx</td>
+                <td align="center">01/01/2009</td>
+
+            </tr>
+            <tr>
+                
+                <td align="center">0001</td>
+                <td align="center">Generation 1</td>
+                <td align="center">Bulbasaur</td>
+                <td align="center"><img src="https://archives.bulbagarden.net/media/upload/thumb/f/fb/0001Bulbasaur.png/105px-0001Bulbasaur.png" alt="Bulbasaur"></td>
+                <td align="center" bgcolor="green" style="color:white">Grass</td>
+                <td align="center" bgcolor="magenta" style="color:white">Poison</td>
+                <td align="center">Bulbasaur</td>
+                <td align="center">Venusaur</td>
+                <td align="center">Onion Frog</td>
+                <td align="center">01/01/2000</td>
+
+            </tr>
+            <tr>
+                
+                <td align="center">0004</td>
+                <td align="center">Generation 1 </td>
+                <td align="center">Charmander</td>
+                <td align="center"><img src="https://archives.bulbagarden.net/media/upload/thumb/2/27/0004Charmander.png/105px-0004Charmander.png" alt="Charmander" ></td>
+                <td colspan= "2" align="center" bgcolor="red" style="color:white">Fire</td>
+                <td align="center">Bulbasaur</td>
+                <td align="center">Charizard</td>
+                <td align="center">Litte Dino</td>
+                <td align="center">01/01/2001</td>
+
+            </tr>
+
+            <tr>
+                
+                <td align="center">0007</td>
+                <td align="center">Generation 1 </td>
+                <td align="center">Squirtle</td>
+                <td align="center"><img src="https://archives.bulbagarden.net/media/upload/thumb/5/54/0007Squirtle.png/105px-0007Squirtle.png" alt="Squirtle"></td>
+                <td colspan="2" align="center" bgcolor="blue" style="color:white">Water</td>
+                <td align="center">Squirtle</td>
+                <td align="center">Blastoise</td>
+                <td align="center">Turtle</td>
+                <td align="center">01/01/2002</td>
+
+            </tr>
+            <tr>
+                
+                <td align="center">0010</td>
+                <td align="center">Generation 1 </td>
+                <td align="center">Caterpie</td>
+                <td align="center"><img src="https://archives.bulbagarden.net/media/upload/thumb/5/5e/0010Caterpie.png/105px-0010Caterpie.png" alt="Caterpie"></td>
+                <td colspan="2" align="center" bgcolor="yellowgreen" style="color:white">Bug</td>
+                <td align="center">Caterpie</td>
+                <td align="center">Butterfree</td>
+                <td align="center">Caterpillar</td>
+                <td align="center">01/01/2003</td>
+
+            </tr>
+            <tr>
+                
+                <td align="center">0013</td>
+                <td align="center">Generation 1 </td>
+                <td align="center">Weedle</td>
+                <td align="center"><img src="https://archives.bulbagarden.net/media/upload/thumb/3/36/0013Weedle.png/105px-0013Weedle.png" alt="Weedle"></td>
+                <td align="center" bgcolor="yellowgreen" style="color:white">Bug</td>
+                <td align="center" bgcolor="magenta" style="color:white">Poison</td>
+                <td align="center">Weedle</td>
+                <td align="center">Beedrill</td>
+                <td align="center">Bee</td>
+                <td align="center">01/01/2004</td>
+
+            </tr>
+            <tr>
+                
+                <td align="center">0016</td>
+                <td align="center">Generation 1 </td>
+                <td align="center">Pidgey</td>
+                <td align="center"><img src="https://archives.bulbagarden.net/media/upload/thumb/0/0c/0016Pidgey.png/105px-0016Pidgey.png" alt="Pidgey"></td>
+                <td align="center" bgcolor="gray" style="color:white">Normal</td>
+                <td align="center" bgcolor="lightblue" style="color:white">Flying</td>
+                <td align="center">Pidgey</td>
+                <td align="center">Pidgeotto</td>
+                <td align="center">Chicken cube</td>
+                <td align="center">01/01/2005</td>
+
+            </tr>
+            <tr>
+                
+                <td align="center">0023</td>
+                <td align="center">Generation 1 </td>
+                <td align="center">Ekans</td>
+                <td align="center"><img src="https://archives.bulbagarden.net/media/upload/thumb/d/d2/0023Ekans.png/105px-0023Ekans.png" alt="Ekans"></td>
+                <td colspan="2" align="center" bgcolor="magenta" style="color:white">Poison</td>
+                <td align="center">Ekans</td>
+                <td align="center">Arbok</td>
+                <td align="center">Snake</td>
+                <td align="center">01/01/2006</td>
+
+            </tr>
+            <tr>
+                
+                <td align="center">0025</td>
+                <td align="center">Generation 1 </td>
+                <td align="center">Pikachu</td>
+                <td align="center"><img src="https://archives.bulbagarden.net/media/upload/thumb/4/4a/0025Pikachu.png/105px-0025Pikachu.png" alt="Pikachu"></td>
+                <td colspan="2" align="center" bgcolor="yellow" style="color:white">Electric</td>
+                <td align="center">Pikachu</td>
+                <td align="center">Raichu</td>
+                <td align="center">Chuchu</td>
+                <td align="center">01/01/2007</td>
+
+            </tr>
+            <tr>
+                
+                <td align="center">0027</td>
+                <td align="center">Generation 1 </td>
+                <td align="center">Sandshrew</td>
+                <td align="center"><img src="https://archives.bulbagarden.net/media/upload/thumb/e/e9/0027Sandshrew.png/105px-0027Sandshrew.png" alt="Sandshrew"></td>
+                <td colspan="2" align="center" bgcolor="brown" style="color:white">Ground</td>
+                <td align="center">Sandshrew</td>
+                <td align="center">Sandslash</td>
+                <td align="center">Badger</td>
+                <td align="center">01/01/2008</td>
+
+            </tr>
+           
+
+
+
+            
+        </table>
+        
+    </body>
+</html>
