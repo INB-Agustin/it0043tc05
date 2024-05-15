@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.box{
+    background-color: rgb(0, 0, 0);
+    width: 30vw;
+    border: 1px ;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    max-width: fit-content;
+    margin-left: 450px;
+    margin-right: auto;
+    margin-top: 100px;
+    color : #ffffff;
+    font-family: "Lato";
+    border-radius: 30px;
+    box-shadow: 0 4px 100px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    text-align: center;
+
+    
+}
+
+body{
+    background-image: url("bg2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.title{
+    font-size: 3rem;
+    color: #F7971D;
+}
+
+.logo{
+    width: 15vh;
+}
+
+.subscription{
+    font-size: 1rem;
+}
+
+.sub{
+    font-size: 1rem;
+}
+
+.terms{
+    font-size: 1.5vh;
+}
+
+.conditions{
+    color: #F7971D;
+}
+
+.voluntarily{
+    color: #F7971D;
+}
+
+.discount{
+    color: #F7971D;
+    
+}
+
+.subscribe{
+    background-color: #F7971D;
+    font-size: 1rem;
+    padding: 10px 50px;
+    border-radius: 12px;
+
+}
+
+.cancel{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    font-size: 1rem;
+    padding: 10px 70px;
+    border-radius: 12px;
+    
+}
