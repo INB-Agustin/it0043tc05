@@ -10,10 +10,12 @@
 body{
     background-image: url(https://preview.redd.it/for-hire-i-make-pixel-art-backgrounds-twitch-overlays-and-v0-mnslf2y8hxab1.gif?width=640&crop=smart&auto=webp&s=b9adcd01e059d3463f4a96e4b72912ffbca5e556);
     background-repeat: no-repeat;
-    background-size: 135%;
+    background-size: cover;
     background-position: auto;
     margin: 5% 15%;
     font-family: 'Courier New', Courier, monospace ;
+    max-width: 100%;
+    height: auto;
     
 }
 
@@ -21,7 +23,6 @@ body{
     box-sizing: auto;
     height: 100%;
     width: 100%;
-    text-align: center;
     
 }
 
@@ -115,7 +116,7 @@ image{
 
 .TYPE2{
     text-align: center;
-    background-color: #EF7374;
+    background-color: #ffffff;
     margin: 0px;
     border-radius: 7px;
     border-width: 50%;
@@ -225,10 +226,9 @@ image{
 
     background-color: #E62829;
     height: 470px;
-    width: 30%;
+    width: 320px;
     border-radius: 10px;
     display: inline-block;
-    margin-right: 30px;
     border-style: solid;
     border-width: 5px;
     height: 490px;
@@ -242,7 +242,7 @@ image{
 
     background-color: #FAC000;
     height: 470px;
-    width: 30%;
+    width: 320px;
     border-radius: 10px;
     display: inline-block;
     border-style: solid;
@@ -450,10 +450,10 @@ image{
 
     background-color: #9141CB;
     height: 470px;
-    width: 30%;
+    width: 320px;
     border-radius: 10px;
     display: inline-block;
-    margin-left: 30px;
+    
     border-style: solid;
     border-width: 5px;
     height: 490px;
@@ -656,10 +656,9 @@ image{
 
     background-color: #EF70EF;
     height: 470px;
-    width: 30%;
+    width: 320px;
     border-radius: 10px;
     display: inline-block;
-    margin-right: 30px;
     border-style: solid;
     border-width: 5px;
     height: 490px;
@@ -864,7 +863,7 @@ image{
 
     background-color: #91A119;
     height: 470px;
-    width: 30%;
+    width: 320px;
     border-radius: 10px;
     display: inline-block;
     border-style: solid;
@@ -1068,10 +1067,9 @@ image{
 
     background-color: #2980EF;
     
-    width: 30%;
+    width: 320px;
     border-radius: 10px;
     display: inline-block;
-    margin-left: 30px;
     margin-top: 30px;
     border-style: solid;
     border-width: 5px;
