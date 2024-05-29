@@ -175,7 +175,7 @@ body{
     }
     .title{
         display: block;   
-        font-size: 2rem;
+        font-size: 1.3rem;
         text-shadow: 1px 1px 10px black;
     }
     .type{
