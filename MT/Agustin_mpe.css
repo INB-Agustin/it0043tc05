@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+}
+
+.flex-container{
+    background-image: url(https://preview.redd.it/for-hire-i-make-pixel-art-backgrounds-twitch-overlays-and-v0-mnslf2y8hxab1.gif?width=640&crop=smart&auto=webp&s=b9adcd01e059d3463f4a96e4b72912ffbca5e556);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 10px;
+    align-items: flex-start;
+    flex-direction: row;
+    
+    
+}
+
+
+.icon{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10;
+    align-items: center;
+    border-color: black;
+    border-width: 10px;
+    flex-grow: 1;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    
+}
+
+.img{
+    width: 100%;
+     
+}
+.pokeball{
+    display: none;
+    height: 150px;
+}
+.title{
+    display: none;
+    color: white;
+    text-shadow: black 5px 0px 4px;
+    padding: 20%;
+}
+
+.type{
+    display: none;
+}
+
+#pikachu{
+    background-color:  #FFF800;
+    border-radius: 10px;
+    border: 0 1px 0 1px solid #000;
+}
+
+#bulbasaur{
+    background-color: #47C67B;
+    border-radius: 10px;
+    border-width: 20px;
+
+}
+
+#pidgey{
+    background-color: #F9CB58;
+    border-radius: 10px;
+
+}
+#charmander{
+    background-color: #FFAD40;
+    border-radius: 10px;
+
+}
+
+#eevee{
+    background-color: #D3964C;
+    border-radius: 10px;
+
+}
+
+#dratini{
+    background-color: #42B1E8;
+    border-radius: 10px;
+
+}
+
+#bellsprout{
+    background-color:#FFF800;
+    border-radius: 10px;
+
+}
+
+#jigglypuff{
+    background-color: #EA81BD;
+    border-radius: 10px;
+
+}
+#venonat{
+    background-color: #8844D8;
+    border-radius: 10px;
+
+}
+
+#squirtle{
+    background-color: #7FE5D8;
+    border-radius: 10px;
+
+}
+#caterpie{
+    background-color: #83D839;
+    border-radius: 10px;
+
+}
+#mew{
+    background-color: #F4C4B3;
+    border-radius: 10px;
+
+}
+
+
+@media (max-width: 990px){
+    .flex-container{
+        flex-direction:column;
+    }
+    .icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .img{
+        width: 250px;
+    }
+    .icon:hover{
+        background-image: url(https://img.freepik.com/free-vector/comic-style-background_23-2148827393.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .title{  
+        font-family: Helvetica, sans-serif;
+        font-size: 2.5rem;
+        padding: 5px;
+        display:inline-block;
+        flex-wrap: wrap;
+        color: white;
+        text-shadow: -1px 10 black, 10 1px black, 1px 0 black, 0 -1px black;
+    }
+    .pokeball{
+        display: inline-block;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 814px){
+    .flex-container{
+        flex-direction:column;
+        align-items: center;
+    }
+    .icon{
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+        width: 60%;
+    }
+    .img{
+        width: 60%;
+    }
+    .title{
+        display: block;   
+        font-size: 2rem;
+        text-shadow: 1px 1px 10px black;
+    }
+    .type{
+        display: block;
+        background-color: rgb(254, 235, 200);
+        border-radius: 10px;
+        padding: 0px 20px;
+        margin-bottom: 5px;
+    }
+    .TYPE{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+        color: white;
+        text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+    }
+    .type1{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color: #FFF800;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type1-2{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color: #FFAD40;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type1-3{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color:  #1A8E1C;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type2-3{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color: #8844D8;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type1-4{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color: gray;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type2-4{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color: lightblue;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type1-5{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color: gray;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type2-5{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color:#EA81BD;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type1-6{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color: gray;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type1-7{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color: #42B1E8;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type1-9{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color: #EA81BD;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type1-10{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color: #83D839;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type1-11{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color: #7FE5D8;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type1-12{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color:  #1A8E1C;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .type2-12{
+        font-family: 'Courier New', Courier, monospace  ;
+        color: rgb(7, 7, 7);
+        display: inline-block;
+        background-color: #8844D8;
+        padding: 4px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .type2{
+        display: none;
+    }
+    .pokeball{
+        display:none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
