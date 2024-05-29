@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.flex-container{
+    background-image: url(https://preview.redd.it/for-hire-i-make-pixel-art-backgrounds-twitch-overlays-and-v0-mnslf2y8hxab1.gif?width=640&crop=smart&auto=webp&s=b9adcd01e059d3463f4a96e4b72912ffbca5e556);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+    
+}
+
+
+.icon{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+
+}
+
+img{
+    width: 19vw; 
+    
+}
+
+#pikachu{
+
+    background-color:  #FFF800;
+    border-radius: 10px;
+
+
+}
+
+#bulbasaur{
+    background-color: #47C67B;
+    border-radius: 10px;
+
+}
+
+#pidgey{
+    background-color: #F9CB58;
+    border-radius: 10px;
+
+}
+#charmander{
+    background-color: #FFAD40;
+    border-radius: 10px;
+
+}
+
+#eevee{
+    background-color: #D3964C;
+    border-radius: 10px;
+
+}
+
+#dratini{
+    background-color: #42B1E8;
+    border-radius: 10px;
+
+}
+
+#bellsprout{
+    background-color:#FFF800;
+    border-radius: 10px;
+
+}
+
+#jigglypuff{
+    background-color: #EA81BD;
+    border-radius: 10px;
+
+}
+#venonat{
+    background-color: #8844D8;
+    border-radius: 10px;
+
+}
+
+#squirtle{
+    background-color: #7FE5D8;
+    border-radius: 10px;
+
+}
+#caterpie{
+    background-color: #83D839;
+    border-radius: 10px;
+
+}
+#mew{
+    background-color: #F4C4B3;
+    border-radius: 10px;
+
+}
+
+#mew:hover{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmlLd2xow-ZWimn_9hJ8nRAWOwoFoRVRekbQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
