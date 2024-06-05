@@ -80,13 +80,13 @@
     text-align: center;
 }
 #des{
+    flex-grow: 1;
     font-family: 'Courier New', Courier, monospace;
     font-size: .9rem;
     background-color: #fdca97;
     border-radius: 10px;
     padding: 10px;
     margin: 20px;
-    padding-bottom: 150px;
 }
 
 /* =========================================================================================== */
@@ -160,14 +160,13 @@ img{
     text-align: center;
 }
 #des2{
-    
+    flex-grow: 1;
     font-family: 'Courier New', Courier, monospace;
     font-size: .9rem;
     background-color: #ffe2cf;
     border-radius: 10px;
     padding: 10px;
     margin: 20px;
-    padding-bottom: 20px;
 }
 
 
@@ -240,14 +239,13 @@ img{
     text-align: center;
 }
 #des3{
-
+    flex-grow: 1;
     font-family: 'Courier New', Courier, monospace;
     font-size: .9rem;
     background-color: #8f9fff;
     border-radius: 10px;
     padding: 10px;
     margin: 20px;
-    padding-bottom: 20px;
 }
 
 /* ================================================================= */
@@ -327,13 +325,13 @@ img{
     text-align: center;
 }
 #des4{
+    flex-grow: 1;
     font-family: 'Courier New', Courier, monospace;
     font-size: .9rem;
     background-color: #fdca97;
     border-radius: 10px;
     padding: 10px;
     margin: 20px;
-    padding-bottom: 180px;
 }
 
 
@@ -409,14 +407,13 @@ img{
 }
 #des5{
     
-
+    flex-grow: 1;
     font-family: 'Courier New', Courier, monospace;
     font-size: .9rem;
     background-color: #c0ffda;
     border-radius: 10px;
     padding: 10px;
     margin: 20px;
-    padding-bottom: 80px;
 }
 
 
@@ -444,7 +441,7 @@ img{
         text-align: center;
         justify-content: center;
         display: block;
-        width: 80px;
+        width: 90px;
 
     }
     #krillin{
