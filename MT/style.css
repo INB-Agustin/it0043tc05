@@ -1,0 +1,671 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 200px 200px 200px 200px; */
+    margin: 50px;
+    gap: 10px;
+    border-color: #7B292B;
+    border-width: 10px;
+}
+
+.card1{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(0,0,0);
+
+}
+
+#box1{
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-color: #7B292B;
+    border-width: 10px;
+    background-color: #FFB500;
+    border-radius: 20px;
+}
+
+
+#goku{
+    width: 25%;
+}
+
+.picholder{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.name{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: white;
+    text-shadow: -3px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+.sub{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.header{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.info{
+    text-align: center;
+}
+#des{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .9rem;
+    background-color: #fdca97;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    padding-bottom: 150px;
+}
+
+/* =========================================================================================== */
+/* =========================================================================================== */
+
+.card2{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(0,0,0);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#box2{
+    grid-row: 1/3;
+    grid-column: 3/ 4;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-color: #7B292B;
+    border-width: 10px;
+    background-color: #DEA783;
+    border-radius: 20px;
+}
+
+.name2{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: white;
+    text-shadow: -3px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+.sub2{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#krillin{
+    width: 40%;
+}
+
+.picholder{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    align-items: center;
+    border-radius: 10px;
+    border-color: #7B292B;
+}
+.header2{
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    display: inline-block;
+    text-align: center;
+}
+#des2{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .9rem;
+    background-color: #ffe2cf;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* =========================================================================================== */
+/* =========================================================================================== */
+
+.card3{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(0,0,0);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#box3{
+    grid-row: 3/5;
+    grid-column: 1/2;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-color: #7B292B;
+    background-color: #001EC2;
+    border-radius: 20px;
+}
+
+.name3{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: white;
+    text-shadow: -3px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+.sub3{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#vegeta{
+    width: 50%;
+}
+
+.picholder{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    align-items: center;
+    border-radius: 10px;
+    border-color: #7B292B;
+}
+.header3{
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    display: inline-block;
+    text-align: center;
+}
+#des3{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .9rem;
+    background-color: #8f9fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+/* ================================================================= */
+/* ================================================================= */
+
+.card4{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(0,0,0);
+    text-align: center;
+
+}
+
+#box4{
+    grid-column: 2/4;
+    grid-row: 3/5;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-color: #7B292B;
+    border-width: 10px;
+    background-color: #F88008;
+    border-radius: 20px;
+}
+
+
+
+#yamcha{
+    width: 25%;
+}
+
+.picholder{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    align-items: center;
+    border-radius: 10px;
+    border-color: #7B292B;
+}
+
+
+.name4{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: white;
+    text-shadow: -3px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+.sub4{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.header4{
+
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.info{
+    display: inline-block;
+    text-align: center;
+}
+#des4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .9rem;
+    background-color: #fdca97;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    padding-bottom: 180px;
+}
+
+
+/* =========================================================================================== */
+/* =========================================================================================== */
+
+.card5{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(0,0,0);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#box5{
+    grid-column: 4/5;
+    grid-row: 1/5;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-color: #7B292B;
+    border-width: 10px;
+    background-color: #10883C;
+    border-radius: 20px;
+}
+
+.name5{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: white;
+    text-shadow: -3px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+.sub5{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#piccolo{
+    width: 70%;
+}
+
+.picholder{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    align-items: center;
+    border-radius: 10px;
+    border-color: #7B292B;
+}
+.header5{
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    display: inline-block;
+    text-align: center;
+}
+#des5{
+    
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .9rem;
+    background-color: #c0ffda;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    padding-bottom: 80px;
+}
+
+
+/* =========================================================================================== */
+/* =========================================================================================== */
+
+@media (max-width: 922px) {
+
+    #goku, #piccolo{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: block;
+        width: 90px;
+    }
+    #yamcha{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: block;
+        width: 90px;
+    }
+    #vegeta{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: block;
+        width: 80px;
+
+    }
+    #krillin{
+        display: block;
+        width: 65px;
+        align-self: center;
+    }
+    #box1{
+        grid-row: 1 / 2;
+        grid-column: 1/ 3;
+        width: 100%;
+        background-repeat: no-repeat;
+        border-color: #7B292B;
+        border-width: 10px;
+        background-color: #FFB500;
+        border-radius: 20px;
+    }
+    #box2{
+        grid-row: 1 / 2;
+        grid-column: 3/ 5;
+        width: 100%;
+        background-repeat: no-repeat;
+        border-color: #7B292B;
+        border-width: 10px;
+        background-color: #DEA783;
+        border-radius: 20px;
+    }
+    
+    #box3{
+        grid-row: 2/3;
+        grid-column: 1/3;
+        width: 100%;
+        background-repeat: no-repeat;
+        border-color: #7B292B;
+        border-width: 10px;
+        background-color: #001EC2;
+        border-radius: 20px;
+    }
+    
+    #box4{
+        grid-row: 2/3;
+        grid-column: 3/5;
+        width: 100%;
+        background-repeat: no-repeat;
+        border-color: #7B292B;
+        border-width: 10px;
+        background-color: #F88008;
+        border-radius: 20px;
+    }
+
+    #box5{
+        grid-column: 1/5;
+        grid-row: 3/4;
+        width: 100%;
+        background-repeat: no-repeat;
+        border-color: #7B292B;
+        border-width: 10px;
+        background-color: #10883C;
+        border-radius: 20px;
+    }
+    img{
+        align-items: center;
+        border-radius: 10px;
+        border-color: #7B292B;
+    }
+    
+    
+    .name2{
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 2rem;
+        color: white;
+        text-shadow: -3px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+        
+    }
+    .sub2{
+        display: block;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: white;
+        text-shadow: -1px 0 black,0 1px black, 1px 0 black, 0 -1px black;
+    }
+    
+    .header, .header2, .header3, .header4, .header5{
+        display: flex;
+        flex-direction: column;        
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .info{
+        text-align: center;
+    }
+    #des{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: .9rem;
+        background-color: #fdca97;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+    }
+    #des3{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: .9rem;
+        background-color: #8f9fff;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+        padding-bottom: 10px;
+    }
+    #des4{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: .9rem;
+        background-color: #fdca97;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+        padding-bottom: 40px;
+    }
+    #des5{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: .9rem;
+        background-color: #c0ffda;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #des2{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: .9rem;
+        background-color: #ffe2cf;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+        padding-bottom: 30px;
+    }
+
+    
+}
+
+@media(max-width: 690px){
+    #box1{
+        grid-row: 1 / 2;
+        grid-column: 1/ 5;
+        width: 100%;
+        background-repeat: no-repeat;
+        border-color: #7B292B;
+        border-width: 10px;
+        background-color: #FFB500;
+        border-radius: 20px;
+    }
+    #box2{
+        grid-row: 2 / 3;
+        grid-column: 1/ 5;
+        width: 100%;
+        background-repeat: no-repeat;
+        border-color: #7B292B;
+        border-width: 10px;
+        background-color: #DEA783;
+        border-radius: 20px;
+    }
+    
+    #box3{
+        grid-row: 3/4;
+        grid-column: 1/5;
+        width: 100%;
+        background-repeat: no-repeat;
+        border-color: #7B292B;
+        border-width: 10px;
+        background-color: #001EC2;
+        border-radius: 20px;
+    }
+    
+    #box4{
+        grid-row: 4/5;
+        grid-column: 1/5;
+        width: 100%;
+        background-repeat: no-repeat;
+        border-color: #7B292B;
+        border-width: 10px;
+        background-color: #F88008;
+        border-radius: 20px;
+    }
+
+    #box5{
+        grid-column: 1/5;
+        grid-row: 5/6;
+        width: 100%;
+        background-repeat: no-repeat;
+        border-color: #7B292B;
+        border-width: 10px;
+        background-color: #10883C;
+        border-radius: 20px;
+    }
+    .header, .header2, .header3, .header4, .header5{
+        display: flex;
+        flex-direction: row;        
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    #des3{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: .9rem;
+        background-color: #8f9fff;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+    }
+    #des4{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: .9rem;
+        background-color: #fdca97;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+    }
+}
