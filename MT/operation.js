@@ -1,73 +1,77 @@
-let containers = document.querySelectorAll(".boxes");
-
 function FlexReset() {
-  containers.forEach(container => {
-    container.style.flexDirection = "row";
-    container.style.justifyContent = "flex-start";
-    container.style.alignItems = "stretch";
-    container.style.gap = "0px";
-    container.querySelectorAll(".b1, .b2, .b3").forEach(box => {
-      box.style.flexGrow = "0";
-    });
-  });
-  document.getElementById("flexGap").value = 0;
-  document.querySelectorAll(".flexGrowInput input").forEach(input => input.value = 0);
+  document.getElementById("flexGap").value = 0; // Changed to correct ID "flexGap"
+
+  // Resetting flex gap and box values
+  document.querySelector(".boxes").style.gap = "0px";
+  
+  document.getElementById("Box1").value = 0;
+  document.getElementById("Box2").value = 0;
+  document.getElementById("Box3").value = 0;
+  
+  FlexGap(); // Call FlexGap to apply changes
+  FlexDirection(1); // Resetting flex direction to row
+  JustifyContent(1); // Resetting justify content to start
+  AlignItems(1); // Resetting align items to start
+  FlexGrowFunction(2); // Resetting flex grow values
 }
 
 function FlexGap() {
-  const gap = document.getElementById("flexGap").value;
-  containers.forEach(container => {
-    container.style.gap = `${gap}px`;
-  });
+  const gap = document.getElementById("flexGap").value; // Corrected ID "flexGapValue" to "flexGap"
+  document.querySelector(".boxes").style.gap = `${gap}px`;
 }
 
-function FlexDirection(direction) {
-  containers.forEach(container => {
-    container.style.flexDirection = direction === 1 ? "row" : "column";
-  });
+function FlexDirection(x) {
+  const boxes = document.querySelectorAll(".boxes > div");
+  
+  if (x === 1) {
+      document.querySelector(".boxes").style.flexDirection = "row";
+      boxes.forEach(box => box.style.flexDirection = "row");
+  } else if (x === 2) {
+      document.querySelector(".boxes").style.flexDirection = "column";
+      boxes.forEach(box => box.style.flexDirection = "column");
+  }
 }
 
-function JustifyContent(justify) {
-  containers.forEach(container => {
-    switch (justify) {
+function JustifyContent(x) {
+  switch (x) {
       case 1:
-        container.style.justifyContent = "flex-start";
-        break;
+          document.querySelector(".boxes").style.justifyContent = "flex-start";
+          break;
       case 2:
-        container.style.justifyContent = "center";
-        break;
+          document.querySelector(".boxes").style.justifyContent = "center";
+          break;
       case 3:
-        container.style.justifyContent = "flex-end";
-        break;
+          document.querySelector(".boxes").style.justifyContent = "flex-end";
+          break;
       case 4:
-        container.style.justifyContent = "space-between";
-        break;
+          document.querySelector(".boxes").style.justifyContent = "space-between";
+          break;
       case 5:
-        container.style.justifyContent = "space-around";
-        break;
+          document.querySelector(".boxes").style.justifyContent = "space-around";
+          break;
       case 6:
-        container.style.justifyContent = "space-evenly";
-        break;
-    }
-  });
+          document.querySelector(".boxes").style.justifyContent = "space-evenly";
+          break;
+      default:
+          break;
+  }
 }
 
-function AlignItems(align) {
-  containers.forEach(container => {
-    switch (align) {
+function AlignItems(x) {
+  switch (x) {
       case 1:
-        container.style.alignItems = "start";
-        break;
+          document.querySelector(".boxes").style.alignItems = "flex-start";
+          break;
       case 2:
-        container.style.alignItems = "center";
-        break;
+          document.querySelector(".boxes").style.alignItems = "center";
+          break;
       case 3:
-        container.style.alignItems = "end";
-        break;
-    }
-  });
+          document.querySelector(".boxes").style.alignItems = "flex-end";
+          break;
+      default:
+          break;
+  }
 }
-
 resetGrowButton.addEventListener('click', function () {
   flexGrowInputs.forEach(input => input.value = 0);
   updateFlexGrow();
@@ -82,6 +86,4 @@ flexGrowInputs.forEach(input => {
   input.addEventListener('input', updateFlexGrow);
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  FlexReset();
-});
+resetFlexbox();
