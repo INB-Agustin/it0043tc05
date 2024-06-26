@@ -83,5 +83,5 @@ flexGrowInputs.forEach(input => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  FlexReset(); // Reset initial styles on page load
+  FlexReset();
 });
