@@ -72,18 +72,34 @@ function AlignItems(x) {
           break;
   }
 }
-resetGrowButton.addEventListener('click', function () {
-  flexGrowInputs.forEach(input => input.value = 0);
-  updateFlexGrow();
-});
 
-growAllButton.addEventListener('click', function () {
-  flexGrowInputs.forEach(input => input.value = 1);
-  updateFlexGrow();
-});
-
-flexGrowInputs.forEach(input => {
-  input.addEventListener('input', updateFlexGrow);
-});
-
-resetFlexbox();
+function FlexGrow(number) {
+  let grow;
+  if (number == 1) {
+      grow = document.getElementById("Box1").value;
+      document.getElementById("b1").style.flexGrow = grow;
+  } else if (number == 2) {
+      grow = document.getElementById("Box2").value;
+      document.getElementById("b2").style.flexGrow = grow;
+  } else if (number == 3) {
+      grow = document.getElementById("Box3").value;
+      document.getElementById("b3").style.flexGrow = grow;
+  }
+}
+function Grow(x) {
+  if (x == 1) {
+      document.getElementById("b1").style.flexGrow++;
+      document.getElementById("b2").style.flexGrow++;
+      document.getElementById("b3").style.flexGrow++;
+      document.getElementById("Box1").value++;
+      document.getElementById("Box2").value++;
+      document.getElementById("Box3").value++;
+  } else if (x == 2) {
+      document.getElementById("b1").style.flexGrow = 0;
+      document.getElementById("b2").style.flexGrow = 0;
+      document.getElementById("b3").style.flexGrow = 0;
+      document.getElementById("Box1").value = 0;
+      document.getElementById("Box2").value = 0;
+      document.getElementById("Box3").value = 0;
+}
+}
