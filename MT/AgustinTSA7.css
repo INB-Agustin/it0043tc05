@@ -72,7 +72,7 @@ h3 {
     background-color: #E0E0E0;
 }
 
-.FDButton, .align{
+#FDButton, #align, #buttons{
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -88,10 +88,18 @@ h3 {
     padding: 10px 10px 0 10px;
     border-radius: 10px;
     background-color: #E0E0E0;
-
 }
 
-.resetButton, .flexGrow .buttons button, .row, .column, .start, .center, .end{
+.align{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+}
+
+#resetButton, #flexGrow, .buttons button, #row, #column, #start, #center, #end{
     width: 100%;
     border-radius: 5px;
 }
@@ -130,11 +138,11 @@ input[type="number"] {
     background-color: #E0E0E0;
 }
 
-.start1, .center1, .end1{
+#start1, #center1, #end1{
     width: 30%;
 }
 
-.spaceBetween, .spaceAround, .spaceEvenly{
+#spaceBetween, #spaceAround, #spaceEvenly{
     width: 30%;
 }
 
@@ -146,13 +154,7 @@ input[type="number"] {
     border-radius: 10px;
     background-color: #E0E0E0;
 }
-.buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
 
-}
 
 .justifyContent .buttons {
     display: flex;
@@ -167,29 +169,19 @@ input[type="number"] {
     margin: 5px 0;
 }
 
-.output {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    width: 55%;
-    background-color: #e0e0e0;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-.reset button, .flexGrow .buttons button {
+.reset button, .flexGrow #buttons button {
     background-color: #dc3545;
 }
 
-.reset button:hover, .flexGrow .buttons button:hover {
+.reset button:hover, .flexGrow #buttons button:hover {
     background-color: #c82333;
 }
 
-.flexGrow .buttons .growAll {
+.flexGrow #buttons #growAll {
     background-color: #28a745;
 }
 
-.flexGrow .buttons .growAll:hover {
+.flexGrow #buttons #growAll:hover {
     background-color: #218838;
 }
 
@@ -202,23 +194,25 @@ input[type="number"] {
 
 }
 .boxes{
+    margin-left: 200px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
     display: flex;
-    justify-content: start;
     align-items: start; 
     flex-wrap: wrap;
-    width: 100%;
+    width: 55%;
     margin: 0%;
    
 }
 
-.b1{
+#b1{
     text-align: center;
     background-color: #0061fe;
     color: #fff;
     font-size: 5rem;
     font-weight: bolder;
-    padding: 20px;
-    width: 130px;
+    padding: 10px;
+    width: 120px;
     border-radius: 5px;
     border-style: solid;
     border-color: black;
@@ -226,14 +220,14 @@ input[type="number"] {
 }
 
 
-.b2{
+#b2{
     text-align: center;
     background-color: #00da07;
     color: #fff;
     font-size: 5rem;
     font-weight: bolder;
-    padding: 20px;
-    width: 130px;
+    padding: 10px;
+    width: 120px;
     border-radius: 5px;
     border-style: solid;
     border: black;
@@ -243,14 +237,14 @@ input[type="number"] {
     border-width: 5px;
 }
 
-.b3{
+#b3{
     text-align: center;
     background-color: #c40000;
     color: #fff;
     font-size: 5rem;
     font-weight: bolder;
-    padding: 20px;
-    width: 130px;
+    padding: 10px;
+    width: 120px;
     border-radius: 5px;
     border-style: solid;
     border: black;
@@ -260,3 +254,7 @@ input[type="number"] {
     border-width: 5px;
 }
 
+#growAll, #resetGrow{
+    display: flex;
+    width: 50%;
+}
