@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1.title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.commands {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+.commands > div {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.reset{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+}
+
+.flexGap{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+}
+
+.flexDirection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+}
+
+.FDButton, .align{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+}
+
+.alignItems{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+
+}
+
+.resetButton, .flexGrow .buttons button, .row, .column, .start, .center, .end{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+label, button, input {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #034489;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 60px;
+}
+
+.justifyContent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+}
+
+
+.flexGrow{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.justifyContent .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.justifyContent button {
+    flex: 1 1 30%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.reset button, .flexGrow .buttons button {
+    background-color: #dc3545;
+}
+
+.reset button:hover, .flexGrow .buttons button:hover {
+    background-color: #c82333;
+}
+
+.flexGrow .buttons .growAll {
+    background-color: #28a745;
+}
+
+.flexGrow .buttons .growAll:hover {
+    background-color: #218838;
+}
+
+.flexGrowInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 20px;
+
+}
+.boxes{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+   
+}
+
+.b1{
+    background-color: #fe8c00;
+    color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border: black;
+    border-width: 5px;
+}
+
+
+.b2{
+    background-color: #bd0505;
+    color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.b3{
+    background-color: #5900fe;
+    color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
