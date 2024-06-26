@@ -72,7 +72,7 @@ h3 {
     background-color: #E0E0E0;
 }
 
-#FDButton, #align, #buttons{
+#FDButton, #align, .buttons{
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -88,7 +88,7 @@ h3 {
     padding: 10px 10px 0 10px;
     border-radius: 10px;
     background-color: #E0E0E0;
-}
+}   
 
 .align{
     display: flex;
@@ -169,19 +169,19 @@ input[type="number"] {
     margin: 5px 0;
 }
 
-.reset button, .flexGrow #buttons button {
+.reset button, .flexGrow .buttons button {
     background-color: #dc3545;
 }
 
-.reset button:hover, .flexGrow #buttons button:hover {
+.reset button:hover, .flexGrow .buttons button:hover {
     background-color: #c82333;
 }
 
-.flexGrow #buttons #growAll {
+.flexGrow .buttons #growAll {
     background-color: #28a745;
 }
 
-.flexGrow #buttons #growAll:hover {
+.flexGrow .buttons #growAll:hover {
     background-color: #218838;
 }
 
@@ -257,4 +257,9 @@ input[type="number"] {
 #growAll, #resetGrow{
     display: flex;
     width: 50%;
+}
+
+#Box1, #Box2, #Box3{
+    width: 15%;
+    margin-right: 20px;
 }
