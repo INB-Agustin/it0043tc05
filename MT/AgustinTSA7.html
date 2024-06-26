@@ -49,21 +49,17 @@
             </div>
             <div class="flexGrow">
                 <h3 id="resetGrowAll">Flex Grow</h3>
-                <div id="buttons">
-                    <button onclick="FlexGrow(2)" id="resetGrow">Reset</button>
-                    <button onclick="FlexGrow(1)" id="growAll">Grow All</button>
+                <div class="buttons">
+                    <button onclick="Grow(2)" id="resetGrow">Reset</button>
+                    <button onclick="Grow(1)" id="growAll">Grow All</button>
                 </div>
-                <div id="BOX1">
+                <div id="BOX">
                     <label for="Box1">Box 1: </label>
-                    <input type="number" min="0" id="Box1" value="0">
-                </div>
-                <div id="BOX2">
+                    <input type="number" min="0" id="Box1" oninput="FlexGrow(1)" value="0">
                     <label for="Box2">Box 2: </label>
-                    <input type="number" min="0" id="Box2" value="0">
-                </div>
-                <div id="BOX3">
+                    <input type="number" min="0" id="Box2" oninput="FlexGrow(2)" value="0">
                     <label for="Box3">Box 3: </label>
-                    <input type="number" min="0" id="Box3" value="0">
+                    <input type="number" min="0" id="Box3"oninput="FlexGrow(3)" value="0">
                 </div>
             </div>
             
