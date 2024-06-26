@@ -130,6 +130,13 @@ input[type="number"] {
     background-color: #E0E0E0;
 }
 
+.start1, .center1, .end1{
+    width: 30%;
+}
+
+.spaceBetween, .spaceAround, .spaceEvenly{
+    width: 30%;
+}
 
 .flexGrow{
     display: flex;
@@ -162,8 +169,8 @@ input[type="number"] {
 
 .output {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     width: 55%;
     background-color: #e0e0e0;
     border-radius: 10px;
@@ -197,37 +204,59 @@ input[type="number"] {
 .boxes{
     display: flex;
     justify-content: start;
+    align-items: start; 
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 20px;
+    margin: 0%;
    
 }
 
 .b1{
-    background-color: #fe8c00;
+    text-align: center;
+    background-color: #0061fe;
     color: #fff;
-    padding: 50px;
+    font-size: 5rem;
+    font-weight: bolder;
+    padding: 20px;
+    width: 130px;
     border-radius: 5px;
-    margin-bottom: 20px;
     border-style: solid;
-    border: black;
+    border-color: black;
     border-width: 5px;
 }
 
 
 .b2{
-    background-color: #bd0505;
+    text-align: center;
+    background-color: #00da07;
     color: #fff;
-    padding: 50px;
+    font-size: 5rem;
+    font-weight: bolder;
+    padding: 20px;
+    width: 130px;
     border-radius: 5px;
-    margin-bottom: 20px;
+    border-style: solid;
+    border: black;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
 }
 
 .b3{
-    background-color: #5900fe;
+    text-align: center;
+    background-color: #c40000;
     color: #fff;
-    padding: 50px;
+    font-size: 5rem;
+    font-weight: bolder;
+    padding: 20px;
+    width: 130px;
     border-radius: 5px;
-    margin-bottom: 20px;
+    border-style: solid;
+    border: black;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
 }
 
