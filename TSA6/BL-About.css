@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navContainer{
+    width: 100%;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+  
+.navText {
+    list-style-type: none;
+    margin-top: 22px;
+    display: flex;
+}
+  
+.navText li {
+    margin: 0 15px;
+}
+  
+.navText a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 0;
+    position: relative;
+}
+  
+.navText a:hover,
+.navText .active {
+    color: #ffb331; 
+}
+  
+.navText a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #ffb331; 
+    transition: width 0.3s;
+    width: 0;
+}
+  
+.navText a:hover::after,
+.navText .active::after {
+    width: 100%;
+}
+  
+.nav-toggle {
+    display: none;
+}
+  
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+}
+  
+.hamburger-menu span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: white;
+    border-radius: 10px;
+}
+    
+body{
+    height: 135vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/11/Hunter-x-Hunter-Characters.jpg?q=49&fit=crop&w=1500&dpr=2);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fdfdfd;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+  
+span{
+    background: #ff9500;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+}
+
+.center{
+    width: 500px;
+    margin-bottom: -30px;
+    cursor: pointer;
+}
+
+.center:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
