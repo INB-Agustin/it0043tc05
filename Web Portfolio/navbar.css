@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #0F1629;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.navContainer {
+    width: 100%;
+    background-color: #232A3C;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 15px 15px;
+    margin-left: 50px;
+
+}
+
+.navText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    position: relative;
+    gap: 15px;
+}
+
+.navText li {
+    margin: 0 25px;
+}
+
+.navText a {
+    color: white;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight:  600;    
+    padding: 5px 10;
+    position: relative;
+    letter-spacing: .5px;
+
+}
+
+.navText a:hover{
+    color: #7AFF91;
+
+}
+.navText .active {
+    color: #7AFF91;
+}
+
+.navText a::after {
+    content: '';
+    display: block;
+    height: 1.5px;
+    background: #7AFF91;
+    transition: width 0.3s;
+    width: 0;
+}
+
+.navText a:hover::after,
+.navText .active::after {
+    width: 100%;
+}
+
+.navText a#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #7AFF91;
+    padding: 2px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+
+.navText a#contact:hover {
+    background-color: #7AFF91;
+    color: #0F1629;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+}
+
+.hamburger-menu span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: white;
+    border-radius: 10px;
+}
+
+
+/*Social Media links and Email Address*/
+
+.botStick{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    
+}
+
+.icons {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    align-items: center;
+    justify-content: end;
+}
+
+.icons a{
+    display: inline-flex;
+    justify-content: center ;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0px 5px 0px;
+    transition: color .3s;
+    transition: transform .3s;
+}
+
+.icons a:hover{
+    display: flex;
+    background-color: #0F1629;
+    color: #78FF8F;
+    transform: scale(1.5);
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    align-items: center;
+    justify-content: end;
+}
+.align #mail {
+    writing-mode: vertical-lr;
+    color: white;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight:  600;    
+    padding: 5px 0;
+    position: relative;
+    margin: 0 0 1rem 0;
+
+    
+}
+
+.align #mail:hover{
+    color: #7AFF91;
+
+}
+
+.line{
+    content: '';
+    width: 2px;
+    height: 150px;
+    margin-bottom: 0px;
+    background-color: #78FF8F;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 12% 10 rem;
+}
+
+.home{
+    margin-top: 3%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 110px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.homePage{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    text-align: left;
+
+}
+
+span{
+    font-family: Poppins;
+    color: #78FF8F;
+    font-weight: bold;
+}
+
+.school, .course, .hd{
+    font-family: Poppins;
+    color: #78FF8F;
+    font-weight: 600;
+}
+
+.homePage h3{
+    color: #828B9B;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+}
+
+.homePage  h1{
+    font-family: Poppins;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-top: 1.5rem;
+
+    line-height: 1;
+    color: #D4DEEE;
+}
+
+.profile{
+    border-radius: 20px;
+}
+
+.profile img{
+    margin-top: 100px;
+    position: relative;
+    width: 250px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    border-radius: 20px;
+}
+
+.profile img:hover{
+    transform: scale(1.1);
+}
+
+.homePage p{
+    font-family: poppins;
+    color: #D4DEEE;
+    font-size: .8rem;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.button1, .button2 {
+    font-family: Poppins;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #0F1629;
+    font-size: 1rem;
+    color: #D4DEEE;
+    border: 2px solid #78FF8F;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button1:hover, .button2:hover {
+    background-color: #78FF8F;
+    color: #0F1629;
+    transform: scale(1.1);
+}
+
+.rolesAnimation{
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.rolesAnimation span{
+    position: relative;
+}
+
+.rolesAnimation span::before{
+    content: "Student";
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    color: #78FF8F;
+    border-radius: 10px;
+    animation: words 20s infinite;
+}
+
+.rolesAnimation span::after{
+    content: "";
+    background-color: #0F1629;
+    position: absolute;
+    width: calc(100% +8px);
+    height: 100%;
+    border-left: -2px solid #78FF8F;
+    right: -8px;
+    animation: cursor .6s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor{
+    to{
+        border-left: 5px solid #78FF8F; ;
+    }
+    
+}
+
+@keyframes words{
+    0%,20%{
+        content: "Leader";
+    }
+    21%,40%{
+        content: "Mythical Immortal";
+    }
+    41%,60%{
+        content: "Coder";
+    }
+    61%,80%{
+        content: "Gamer";
+    }
+    81%,100%{
+        content: "Student";
+    }
+    
+}
+
+@keyframes typing{
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+    0%, 5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% , 100%{
+        width: calc(100% + 8px);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navText {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        display: none;
+    }
+
+    .nav-toggle:checked ~ .navText {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .navText li {
+        margin: 15px 0;
+    }
+
+    .navText a {
+        font-size: 1rem;
+    }
+
+    .navText a#contact {
+        margin-top: 10px;
+    }
+}
