@@ -80,6 +80,8 @@ body{
     flex-direction: column;
     justify-content: space-between;
     height: 24px;
+    transition: .2s ease-in-out;
+
 }
   
 .hamburger-menu span {
@@ -88,6 +90,8 @@ body{
     height: 3px;
     background: white;
     border-radius: 10px;
+    transition: .2s ease-in-out;
+
 }
 
 .bodyContainer{
@@ -112,11 +116,13 @@ body{
     width: 100%;
 }
 
-.slider{
+.slider p{
     font-size: 1rem;
     color: #ffffff;
     display: inline-block;
     justify-content: space-between;
+    transition: .2s ease-in-out;
+    
 }
 
 .slider p:hover{
@@ -165,9 +171,15 @@ body{
 .bannerHXH{
     display: flex;
     width: 100%;
+    transition: .2s ease-in-out;
     height: 35vh;
- 
-    
+}
+
+.bannerHXH:hover{
+    background-color: #1B1B1B;
+    border-radius: 10px;
+    cursor: pointer;
+    scale: 1.01;
 }
 
 /* .bannerPoster img{
@@ -196,6 +208,59 @@ body{
     margin-top: 5px;
 }
 
+.box1:hover{
+    background-color: #275537;
+    border-color: #196B24;
+    scale: 1.1;
+
+}
+.box2:hover{
+    background-color: #374C7F;
+    border-color: #6E86CA;
+    scale: 1.1;
+}
+.box3:hover{
+    background-color: #8A7E4D;
+    border-color: #D1CD90;
+    scale: 1.1;
+}
+.box4:hover{
+    background-color: #4F5450;
+    border-color: #93908C;
+    scale: 1.1;
+}
+.box5:hover{
+    background-color: #6114A3;
+    border-color: #9751B6;
+    scale: 1.1;
+}
+.box6:hover{
+    background-color: #A8803F;
+    border-color: #D3B93F;
+    scale: 1.1;
+}
+.box7:hover{
+    background-color: #71173E;
+    border-color: #DC98AF;
+    scale: 1.1;
+}
+.box8:hover{
+    background-color: #693F26;
+    border-color: #98713A;
+    scale: 1.1;
+}
+.box9:hover{
+    background-color: #190065;
+    border-color: #2F2984;
+    scale: 1.1;
+}
+.box10:hover{
+    background-color: #364128;
+    border-color: #4A6539;
+    scale: 1.1;
+}
+
+
 .box1{
     display: flex;
     flex-direction: column;
@@ -211,6 +276,7 @@ body{
     grid-row: 3/4;
     border-radius: 5px;
     flex-shrink: 1;
+    transition: .2s ease-in-out;
 }
 
 .name{
@@ -240,12 +306,13 @@ body{
     border-style: solid;
     border-width: 5px;
     width: 95%;
-
     height: 100%;
     border-radius: 5px;
     border-radius: 5px;
     grid-column: 2/3;
     grid-row: 3/4;
+    transition: .2s ease-in-out;
+
 }
 
 #killua {
@@ -264,6 +331,7 @@ body{
     border-style: solid;
     border-width: 5px;
     width: 95%;
+    transition: .2s ease-in-out;
 
     height: 100%;
     border-radius: 5px;
@@ -286,6 +354,7 @@ body{
     border-style: solid;
     border-width: 5px;
     width: 95%;
+    transition: .2s ease-in-out;
 
     height: 100%;
     border-radius: 5px;
@@ -309,6 +378,7 @@ body{
     border-style: solid;
     border-width: 5px;
     width: 95%;
+    transition: .2s ease-in-out;
 
     height: 100%;
     border-radius: 5px;
@@ -331,6 +401,7 @@ body{
     border-style: solid;
     border-width: 5px;
     width: 95%;
+    transition: .2s ease-in-out;
 
     height: 100%;
     border-radius: 5px;
@@ -355,6 +426,7 @@ body{
     border-style: solid;
     border-width: 5px;
     width: 95%;
+    transition: .2s ease-in-out;
 
     height: 100%;
     border-radius: 5px;
@@ -379,6 +451,7 @@ body{
     border-style: solid;
     border-width: 5px;
     width: 95%;
+    transition: .2s ease-in-out;
 
     height: 100%;
     border-radius: 5px;
@@ -403,6 +476,7 @@ body{
     border-style: solid;
     border-width: 5px;
     width: 95%;
+    transition: .2s ease-in-out;
 
     height: 100%;
     border-radius: 5px;
@@ -427,6 +501,7 @@ body{
     border-style: solid;
     border-width: 5px;
     width: 95%;
+    transition: .2s ease-in-out;
 
     height: 100%;
     border-radius: 5px;
@@ -547,8 +622,14 @@ body{
     width: 130px;
     height: auto;
     margin-right: 20px;
+    transition: .2s ease-in-out;
+
 }
 
+#news1:hover, #news2:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
 
 .newsHead{
     display: flex;
