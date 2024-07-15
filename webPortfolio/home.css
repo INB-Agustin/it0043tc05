@@ -63,7 +63,7 @@ body {
 
 .navText a {
     color: white;
-    font-family: Poppins, sans-serif;
+    font-family: "s", sans-serif;
     text-decoration: none;
     font-size: .8rem;
     font-weight:  600;    
@@ -924,7 +924,17 @@ span{
 }
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        padding: 15px 15px;
+        margin-left: 0px;
+    
+    }
     .navText {
         display: none;
         flex-direction: column;
@@ -947,6 +957,8 @@ span{
 
     .hamburger-menu {
         display: flex;
+        cursor: pointer;
+        flex-direction: column;
     }
 
     .home {
@@ -958,7 +970,7 @@ span{
     }
 
     .homePage {
-        height: auto;
+        margin-top: -90px;
     }
 
     .profile {
@@ -978,8 +990,8 @@ span{
         border-style: solid;
         border-color: #78FF8F;
         border-radius: 10px;
-        font-size: 2rem;
-        padding: 18px 10px 0px 10px;
+        font-size: .5rem;
+        padding: 5px 5px 0px 2px;
         position: relative;
         margin-left: 0px;
         color: #D4DEEE;
@@ -987,6 +999,15 @@ span{
         align-content: center;
         width: 50px;
         
+    }
+    .arrowline{
+        display: inline-block;
+        border: 2.2px #78FF8F solid;
+        border-radius: 25px;
+        width: 18%;
+        position: relative;
+        align-items: center;
+        justify-content: center;
     }
     .profile{
         border-radius: 20px;
@@ -1071,13 +1092,13 @@ span{
     }
     .project-info h4{
         color: #78FF8F;
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: bold;
     }
     
     .project-info p{
         color: white;
-        font-size: 1.2rem;
+        font-size: .9rem;
         font-weight: 600;
         max-height: 100px;
         margin: auto;
@@ -1104,7 +1125,7 @@ span{
         flex-direction: column;
         background-color: #0F1629;
         background-size: cover;
-        width: 120%;
+        width: 190%;
         
         height: 300px;
         border-radius: 3rem;
