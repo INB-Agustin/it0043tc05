@@ -972,7 +972,7 @@ span{
 
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .num{
         display: inline-block;
         border-style: solid;
@@ -988,9 +988,34 @@ span{
         width: 50px;
         
     }
+    .profile{
+        border-radius: 20px;
+        z-index: 3;
+        margin-right: 0px;
+        margin-top: -80px;
+    }
     
+    
+    .profile img{
+        margin-top: 0px;
+        position: relative;
+        width: 100%;
+        cursor: pointer;
+        transition: .2s ease-in-out;
+        border-radius: 20px;
+    }
+    
+    .homePage p{
+        font-family: "poppins";
+        color: #D4DEEE;
+        font-size: .9rem;
+        font-weight: 500;
+        line-height: 1.8;
+        letter-spacing: 1px;
+    }
     .intro{
         width: 100%;
+        margin: 0px;
         display: flex;
         font-family: "Poppins";
         font-weight: 500;
@@ -1001,7 +1026,27 @@ span{
     
     }
     
-   
+    .timeline-items::before{
+        content: ""; 
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        background-color: #78FF8F;
+        left: calc(2.5% - 1px);
+        top: 0; 
+        bottom: 0; 
+    }
+    .timeline-item:nth-child(odd){
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline-item:nth-child(odd), .timeline-item:nth-child(even){
+        padding-left: 37px;
+    }
+    
+    .timeline-dot{
+        left: 0;
+    }
     
     .num{
         font-size: 2rem;
@@ -1009,6 +1054,20 @@ span{
     }
     .heading{
         font-size: 2rem;
+    }
+
+    .contact form .input-box input, .contact form textarea{
+        width: 70%;
+        padding: 15px;
+        font-size: 1rem;
+        color: #D4DEEE;
+        background-color: #232A3C;
+        border-radius: 10px;
+        border: 2px solid #78FF8F;
+        outline: none;
+        margin-bottom: 1rem;
+        z-index: 3;
+    
     }
     .project-info h4{
         color: #78FF8F;
@@ -1069,8 +1128,15 @@ span{
         text-align: center;
     }
 
-    .homePage h1 {
+    .homePage  h1{
+        font-family: Poppins;
         font-size: 2.5rem;
+        font-weight: bold;
+        margin-top: -10px;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        line-height: 1;
+        color: #D4DEEE;
     }
 
     .profile img {
@@ -1110,10 +1176,7 @@ span{
     section{
         padding: 10rem 3% 2rem;
     }
-    .timeline-item::before{
-        left: 7px;
-    }
-    
+
     .services{
         padding-bottom: 7rem;
     }
