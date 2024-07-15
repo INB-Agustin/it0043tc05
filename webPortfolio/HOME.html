@@ -11,7 +11,7 @@
 <body>
     <div class="navContainer">
         <div class="navbar">
-            <a href="https://www.youtube.com/watch?v=3wQiyOmAUOA" target="_self"><img alt="clickable" src="AR2.png" class="logo"></a>
+            <a href="https://www.facebook.com/renren.agustin.37" target="_self"><img alt="clickable" src="AR2.png" class="logo"></a>
             <input type="checkbox" id="nav-toggle" class="nav-toggle">
             <label for="nav-toggle" class="hamburger-menu">
                 <span></span>
@@ -19,17 +19,16 @@
                 <span></span>
             </label>
             <ul class="navText">
-                <li><a id="home" href="#home1" target="_self">Home</a></li>
-                <li><a id="about" href="#About" target="_self">About</a></li>
-                <li><a id="projects" href="#">Projects</a></li>
-                <li><a id="services" href="#services">Services</a></li>
-                <li><a id="contact" href="#contact">Contact</a></li>
+                <li><a href="#home" target="_self">Home</a></li>
+                <li><a href="#about" target="_self">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a id="contactbtn"  href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
 
-    <section class="home1" id="home1">
-        <section class="home" id="home">
+    <section class="home" id="home">
             <div class="homePage">
                 <h1>Hello, It's <br>Ren Ren Agustin</h1>
                 <h3 class="rolesAnimation">I'm a <span></span></h3>
@@ -43,7 +42,6 @@
             <div class="profile">
                 <img src="grad.jpg" alt="" class="myProfile">
             </div>
-        </section>
 
         
 
@@ -101,7 +99,7 @@
             <a class="project-box" id="flexbox" href="https://inb-agustin.github.io/it0043tc05/MT/AgustinTSA7.html">
                 <div class="project-info">
                     <h4>Flexbox Simulator</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae sint magnam deleniti fugit exercitationem facilis sed quidem eos dignissimos.</p>
+                    <p>This is a webpage of Flexbox simulator which demonstrates how flex commands work</p>
 
                 </div>
                 
@@ -109,30 +107,30 @@
         </div>
 
         <div class="projects-container">
-            <div class="project-box" id="pokemonbox">
+            <a class="project-box" id="pokemonbox" href="https://inb-agustin.github.io/it0043tc05/MT/Agustin_mpe.html" >
                 <div class="project-info">
                     <h4>Pokemon Box</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae sint magnam deleniti fugit exercitationem facilis sed quidem eos dignissimos.</p>
+                    <p>This is a webpage of different pokemon boxes that utilizes responsiveness</p>
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="projects-container">
-            <div class="project-box" id="pokemoncards">
+            <a class="project-box" id="pokemoncards" href="https://inb-agustin.github.io/it0043tc05/tsa4/Agustin_TSA4.html">
                 <div class="project-info">
                     <h4>Pokemon Cards</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae sint magnam deleniti fugit exercitationem facilis sed quidem eos dignissimos.</p>
+                    <p>This is a webpage of pokemon cards</p>
                 </div>
-            </div>
+            </a>
         </div>
 
         <div class="projects-container">
-            <div class="project-box" id="hxh">
+            <a class="project-box" id="hxh" href="https://inb-agustin.github.io/it0043tc05/TSA6/AgustinTSA6.html">
                 <div class="project-info">
-                    <h4>Hunter x Hunter Website</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae sint magnam deleniti fugit exercitationem facilis sed quidem eos dignissimos.</p>
+                    <h4>HxH Website</h4>
+                    <p>This is a fan-made Hunter x Hunter website.</p>
                 </div>
-            </div>
+            </a>
         </div>
 
     </section>
@@ -147,16 +145,34 @@
                     <p>I offer services in Graphic Designs such as photo manipulation, poster making, etc.</p>
                 </div>
 
-                <div class="service-item">
+                <div class="service-item" id="video-editing">
                     <i class="fa-solid fa-photo-film" id="icon-service"></i>
                     <h2>Video Editing</h2>
                     <p>I offer video editing services for films, tutorials, and animations</p>
                 </div>
 
-                <div class="service-item">
+                <div class="service-item" id="code-projects">
                     <i class="fa-solid fa-code" id="icon-service"></i>
                     <h2>Code Projects</h2>
                     <p>I just started offering coding services using C++.</p>
+                </div>
+
+                <div class="service-item" id="3d-printing">
+                    <i class="fa-brands fa-unity" id="icon-service"></i>
+                    <h2>3D Printing</h2>
+                    <p>I offer services in 3d modelling and 3d printing.</p>
+                </div>
+
+                <div class="service-item" id="portrait">
+                    <i class="fa-solid fa-pen-to-square" id="icon-service"></i>
+                    <h2>Portrait</h2>
+                    <p>I offer graphite and charcoal portrait commissions</p>
+                </div>
+
+                <div class="service-item" id="Hosting">
+                    <i class="fa-solid fa-microphone-lines" id="icon-service"> </i>
+                    <h2>Hosting</h2>
+                    <p>I offer public speech and hosting service.</p>
                 </div>
             </div>
 
@@ -182,9 +198,11 @@
                 </div>
             </div>
             
-            <div class="input-group2">
+            <div class="input-group">
                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <input type="submit" value="Send Message" class="button1">
+                <a href="mailto:renrenagustin51@gmail.com" class="button1">
+                    Send Message
+                </a>
             </div>
 
         </form>
